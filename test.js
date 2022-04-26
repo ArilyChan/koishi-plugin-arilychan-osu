@@ -29,7 +29,9 @@ async function test() {
     (await ask(41888438, "*recent"))).then(
     (await ask(41888438, "*setUSER candy"))).then(
     (await ask(41888438, "*setmode osuRX"))).then(
-    (await ask(41888438, "*recent")))
+    (await ask(41888438, "*recent"))).then(
+    (await ask(41888438, "*help"))).then(
+    (await ask(41888438, "*help best")))
 }
 
 test();
