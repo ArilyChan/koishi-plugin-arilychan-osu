@@ -1,0 +1,6 @@
+.vscode/
+.github/
+.eslintrc.js
+README.md
+test.js
+module-test/
